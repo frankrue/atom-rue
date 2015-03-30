@@ -1,2 +1,2 @@
 'atom-text-editor':
-  'ctrl-shift-c': 'rue:kill-classes'
+  'ctrl-shift-Z': 'rue:kill-classes'
