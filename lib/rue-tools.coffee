@@ -12,7 +12,12 @@ module.exports =
     @subscriptions.dispose()
 
   kill_classes: ->
+    classPattern = ///
+      \s+
+      class\=\"([^"]+)\"
+    ///i
     if editor = atom.workspace.getActiveTextEditor()
       selection = editor.getSelectedText()
-      selection = selection.replace /s\sclass="[^"]"/g, ""
-      editor.insertText(selection);
+      selection = selection.replace classPattern, ""
+      console.log selection
+      editor.insertText(selection)
