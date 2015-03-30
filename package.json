@@ -1,0 +1,14 @@
+{
+  "name": "atom-rue",
+  "main": "./lib/rue-tools",
+  "version": "0.0.1",
+  "description": "Tools for Atom by Frank Rue",
+  "activationCommands": {
+    "atom-workspace": "rue:kill-classes"
+  },
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0"
+  }
+}
