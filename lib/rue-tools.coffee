@@ -15,7 +15,7 @@ module.exports =
     classPattern = ///
       \s+
       class\=\"([^"]+)\"
-    ///i
+    ///ig
     if editor = atom.workspace.getActiveTextEditor()
       selection = editor.getSelectedText()
       selection = selection.replace classPattern, ""
