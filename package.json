@@ -3,6 +3,7 @@
   "main": "./lib/rue-tools",
   "version": "0.0.1",
   "description": "Tools for Atom by Frank Rue",
+  "author": "Frank Rue <frankrue@gmail.com>",
   "activationCommands": {
     "atom-workspace": "rue:kill-classes"
   },
