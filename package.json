@@ -4,7 +4,10 @@
   "version": "0.0.1",
   "description": "Tools for Atom by Frank Rue",
   "author": "Frank Rue <frankrue@gmail.com>",
-  "repository": "git@github.com:frankrue/atom-rue.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:frankrue/atom-rue.git"
+  },
   "activationCommands": {
     "atom-workspace": "rue:kill-classes"
   },
